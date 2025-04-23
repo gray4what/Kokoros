@@ -1,0 +1,23 @@
+{
+  "document_groups": [
+    {
+      "name": "all",
+      "include": [
+        "**/*.py",
+        "**/*.js",
+        "**/*.ts",
+        "**/*.md",
+        "**/*.rst",
+        "**/*.toml",
+        "**/*.rs",
+        "**/*.lock",
+        "**/Dockerfile"
+      ],
+      "exclude": [
+        ".venv",
+        ".git",
+        "node_modules"
+      ]
+    }
+  ]
+}
