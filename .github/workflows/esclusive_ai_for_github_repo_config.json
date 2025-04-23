@@ -9,9 +9,7 @@
         "**/*.md",
         "**/*.rst",
         "**/*.toml",
-        "**/*.rs",
-        "**/*.lock",
-        "**/Dockerfile"
+        "**/*.rs"
       ],
       "exclude": [
         ".venv",
